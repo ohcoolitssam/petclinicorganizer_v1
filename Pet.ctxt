@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pet
+comment0.text=\r\n\ Pet\ Class\ Definition\ with\ constructors\ and\ methods\ that\ are\ used\r\n\ in\ the\ Owner\ Class.\r\n\r\n\ @author\ Samuel\ Phillips\r\n\ @version\ ITSC1213-FALL2018\ 11/7/18\r\n
+comment1.params=
+comment1.target=Pet()
+comment1.text=\r\n\ No-args\ constructor\ method\ that\ sets\ all\ values\ to\ either\ null\ or\ 0.\r\n
+comment2.params=n\ t\ w\ r\ v
+comment2.target=Pet(java.lang.String,\ java.lang.String,\ double,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ method\ that\ intakes\ parameter\ values\ and\ sets\ them\ as\ such\ \r\n\ for\ each\ field.\r\n\ @param\ n\ is\ a\ new\ pet\ name,\ t\ is\ a\ new\ pet\ type,\ w\ is\ a\ new\ pet\ weight,\r\n\ r\ is\ a\ new\ date\ that\ the\ pet\ last\ received\ their\ rabies\ shot\ and\ v\ is\ a\r\n\ new\ date\ that\ the\ pet\ last\ visited\ the\ place.\r\n
+comment3.params=newP
+comment3.target=Pet(Pet)
+comment3.text=\r\n\ Copy\ constructor\ method\ that\ makes\ a\ deep\ copy\ of\ a\ pet\ object.\r\n\ @param\ newP\ is\ a\ pet\ object\ that\ uses\ an\ existing\ pet\ object\r\n\ to\ make\ a\ deep\ copy.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ ToString\ method\ that\ lists\ out\ the\ pet\ details\ in\ an\ ordered\ fashion.\r\n\ @return\ a\ string\ statement\ of\ a\ pet\ object\ in\ an\ ordered\ way.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toFileOut()
+comment5.text=\r\n\ ToString\ like\ method\ that\ prints\ out\ the\ pet\ details\ in\ the\ original\r\n\ format\ like\ on\ the\ clientdata.txt\ text\ file.\r\n\ @return\ a\ string\ statment\ of\ a\ pet\ object\ in\ an\ old\ format\ way\r\n\ like\ in\ the\ textfile.\r\n
+numComments=6
